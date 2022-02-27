@@ -1,13 +1,196 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+    background-color: #fff;
+}
+
+/* Login Page */
+.login-box{
+    width: 50%;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 150px auto;
+}
+.login-box h1{
+    background-color: #4d4d4f;
+    color:white;
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: solid black 2px;
+}
+.login-input{
+    padding: 10px 100px;
+    margin: 20px auto;
+}
+.login-input input{
+    margin-bottom: 15px;
+}
+.login-button{
+    text-align: center;
+}
+
+/*-----UI Page--------*/
+
+#row1 {
+    width:100%;
+    background-color: #fff;
+}
+#row2 {
+    width:100%;
+    background-color: #fff;
+}
+.column{
+    display: inline-block;
+    width:45%;
+    vertical-align: middle;
+    margin: 20px 30px;
+
+}
+
+/*Header*/
+.header {
+    background-color: #4d4d4f;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border-bottom: solid black 2px;
+}
+.headlist {
+    list-style-type: none;
+    overflow: hidden;
+}
+.headlist li {
+    float: left;
+    padding: 10px 20px;
+}
+#list-special {
+    float:right;
+}
+.sub-header {
+    text-align: center;
+    background-color: #4d4d4f;
+    color: white;   
+    border-bottom: solid black 2px;
+    padding: 5px;
+}
+#signout {
+    padding: 5px 10px;
+    display: block;
+    color: white;
+    background-color: rgb(98, 98, 240);
+}
+
+/*Schedule*/
+.schedule {
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgb(207, 243, 243);
+    height: 40vh;
+}
+.scroller{
+    height: 35vh;
+    overflow-y: scroll;
+}
+.timeEvents {
+    background-color: lightgray;
+    border-right: solid gray 2px;
+    display:inline-block;
+    padding: 12px;
+    margin-left: 20px;
+    width: 20%;
+    border: solid black 1px;
+    text-align: center;
+}
+.events{
+    display: inline-block;
+    padding: 12px;
+    width: 60%;
+    text-align: left;
+    border: solid black 1px;
+    background-color: #9bd021;
+}
+#clock {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+/*Phone*/
+.phone {
+    background-color: lightblue;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40vh;
+}
+.phone-screen {
+    width:90%;
+    height: 20px;
+    margin: 10px auto;
+    padding: 15px;
+    border: solid;
+    background-color: rgb(194, 194, 175);
+}
+.number { 
+    font-size: 18px;
+    padding: 3px 0px;
+    width:33.33%;
+}
+.phone-pad {
+    width:75%;
+    margin: 10px auto;
+    border: solid;
+}
+.phone-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+#call {
+    font-size: 18px;
+    text-align: center;
+}
+
+/*News*/
+.news {
+    background-color: #f1be51;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40vh;
+}
+
+/*Notes*/
+.notes {
+    background-color: blanchedalmond;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40vh;
+}
+#theNote {
+    height:25vh;
+    overflow-y: scroll;
+    white-space: pre-wrap;
+    width: 90%;
+    margin: 0px auto;
+    border: #4d4d4f solid 1px;
+    background-color: white;
+}
+.note-input {
+    text-align: center;
+    margin-top: 5px;
+}
+#noteHeader {
+    text-align: center;
+    margin-top: 5px;
+    border-bottom: #4d4d4f solid 1px;
+    width: 90%;
+    margin: 5px auto;
 }
