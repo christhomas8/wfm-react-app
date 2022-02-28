@@ -9,6 +9,15 @@ If the login is successful, the signed in version of the main app will appear.
 
 ![Main_App](UI.png)<br><br>
 
+The main app includes the following components:
+1) A schedule
+2) A telephone
+3) Company News
+4) A notepad
+5) Personalization
+6) Theme settings
+7) Sign out
+
 
 
 # Getting Started with Create React App
