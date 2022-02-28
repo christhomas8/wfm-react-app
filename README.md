@@ -1,3 +1,16 @@
+# Work Force Management App
+
+This project was built in React as a software demonstration for call centers.<br>
+It includes a login page that requires the correct input to load the main app page.
+
+![Login](loginpage.png)<br><br>
+
+If the login is successful, the signed in version of the main app will appear.
+
+![Main_App](UI.png)<br><br>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
