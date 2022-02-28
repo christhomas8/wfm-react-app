@@ -24,6 +24,8 @@ The main app includes the following components:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+It was developed by using `nvm install 14.19.0` but should work with other versions.
+
 ## Available Scripts
 
 In the project directory, you can run:
