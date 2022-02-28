@@ -10,13 +10,13 @@ If the login is successful, the signed in version of the main app will appear.
 ![Main_App](UI.png)<br><br>
 
 The main app includes the following components:
-1) A schedule
-2) A telephone
-3) Company News
-4) A notepad
-5) Personalization
-6) Theme settings
-7) Sign out
+1) A randomly generated schedule of the day with the current date and load time displayed
+2) A telephone that dials numbers from the pressed buttons with the option to call the number, end the call, or delete input
+3) Company News with an article image, a paragraph preview, a link to full articles, and some personalization
+4) A notepad that allows notes to be recorded and displayed in a historical fashion
+5) Header personalization to display who the current account is signed in as
+6) Theme settings for toggling between the light and dark themes of the UI
+7) A sign out option to return to the login page and sign into another account
 
 
 
