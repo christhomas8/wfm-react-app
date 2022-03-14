@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Login Page */
+.login-box{
+    width: 50%;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 150px auto;
+}
+.login-box h1{
+    background-color: #4d4d4f;
+    color:white;
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: solid black 2px;
+}
+.login-input{
+    padding: 10px 100px;
+    margin: 20px auto;
+}
+.login-input input{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.login-button{
+    text-align: center;
+}

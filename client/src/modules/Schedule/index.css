@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sub-header {
+    text-align: center;
+    background-color: #4d4d4f;
+    color: white;   
+    border-bottom: solid black 2px;
+    padding: 5px;
+}
+
+/*Schedule*/
+.schedule {
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgb(207, 243, 243);
+    height: 40vh;
+}
+.scroller{
+    height: 35vh;
+    overflow-y: scroll;
+}
+.timeEvents {
+    background-color: lightgray;
+    border-right: solid gray 2px;
+    display:inline-block;
+    padding: 12px;
+    margin-left: 20px;
+    width: 20%;
+    border: solid black 1px;
+    text-align: center;
+}
+.events{
+    display: inline-block;
+    padding: 12px;
+    width: 60%;
+    text-align: left;
+    border: solid black 1px;
+    background-color: #9bd021;
+}
+#clock {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0px;
+}
