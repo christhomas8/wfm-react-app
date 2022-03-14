@@ -1,7 +1,16 @@
-# Work Force Management App
+# Workforce Management App (Updated)
 
 This project was built in React as a software demonstration for call centers.<br>
 It includes a login page that requires the correct input to load the main app page.
+
+
+Updates:
+1) Added a Node API that accepts login parameters and validates the user's credentials and returns a response
+2) After submiting data, the API's response determines which display is called  
+3) More React features were added such as states and props usage
+4) More modular structure was implemented to separate the major components
+5) The API and the App can can run simultaneously with the command `npm run dev` 
+
 
 ![Login](loginpage.png)<br><br>
 
